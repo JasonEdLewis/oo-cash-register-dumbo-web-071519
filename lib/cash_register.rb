@@ -11,5 +11,5 @@ class CashRegister
     previous_total = @total
     @total += price
   end
-  
+  previous_total
 end
