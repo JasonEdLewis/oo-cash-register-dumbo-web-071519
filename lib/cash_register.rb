@@ -13,6 +13,7 @@ class CashRegister
   end
   
   def apply_discount
-     @total = @total- (@total*@discount)/100 
+     @total = @total- (@total*@discount)/100
+     "Your total has been updated!!"
   end
 end
